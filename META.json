@@ -59,7 +59,7 @@
          "web" : "https://github.com/vlyon/Dist-Zilla-Plugin-ReversionAfterRelease"
       }
    },
-   "version" : "0.1",
+   "version" : "0.2",
    "x_serialization_backend" : "JSON::XS version 3.03",
    "x_static_install" : 1
 }
