@@ -5,10 +5,9 @@ Dist::Zilla::Plugin::ReversionAfterRelease - Bump and reversion after distributi
 # SYNOPSIS
 
     [VersionFromModule]
-    [CopyFilesFromBuild]
-    copy = Changes
-    
     [UploadToCPAN]
+    [CopyFilesFromRelease]
+    filename = Changes
     
     ; commit source files as of "dzil release" with any
     ; allowable modifications (e.g Changes)
